@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import snakegame from "../../Assets/Projects/snakegame.jpeg";
 import nyra from "../../Assets/Projects/nyra.jpeg";
 import quiz from "../../Assets/Projects/quiz.jpeg";
+import gesturepilot from "../../Assets/Projects/gesturepilot.jpeg";
 
 function Projects() {
   return (
@@ -41,7 +42,16 @@ function Projects() {
               isBlog={false}
               title="Quiz Application"
               description=""
-              demoLink="https://mindsprint.netlify.app//"
+              demoLink="https://mindsprint.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gesturepilot}
+              isBlog={false}
+              title="Gesture Pilot"
+              description=""
+              demoLink="https://gesturepilot.netlify.app/"
             />
           </Col>
         </Row>
