@@ -7,6 +7,7 @@ import nyra from "../../Assets/Projects/nyra.jpeg";
 import quiz from "../../Assets/Projects/quiz.jpeg";
 import gesture from "../../Assets/Projects/gesturepilot.jpeg";
 import codezen from "../../Assets/Projects/codezen.jpeg";
+import ats from "../../Assets/Projects/ats.png";
 
 function Projects() {
   return (
@@ -62,6 +63,15 @@ function Projects() {
               title="CodeZen"
               description=""
               demoLink="https://codezenai.netlify.app//"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ats}
+              isBlog={false}
+              title="ATSInsight"
+              description=""
+              demoLink="https://ats-insight.streamlit.app/"
             />
           </Col>
         </Row>
